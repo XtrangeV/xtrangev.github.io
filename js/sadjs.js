@@ -5,14 +5,14 @@ function sad()
 	num.send();
 	num.onreadystatechange = function()
 	{
-		if(xhr.readyState == 4 && xhr.status == 200)
+		if(num.readyState == 4 && num.status == 200)
 		{
-			console.log(xhr);
-			console.log(xhr.responseText);
+			console.log(num);
+			console.log(num.responseText);
 		} 
-		else if(xhr.status == 404)
+		else if(num.status == 404)
 		{
-			console.log(xhr.status);
+			console.log(num.status);
 		}
 	}
 }
