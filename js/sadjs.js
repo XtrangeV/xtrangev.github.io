@@ -19,7 +19,7 @@ function ajaxtest()
 	{
 		if(xmlhttp.readyState == 4&& xmlhttp.status == 200)
 		{
-			document.getElementById("numdiv").innerHTML = xmlhttp.responseText;
+			document.getElementById("number").innerHTML = xmlhttp.responseText;
 		}
 	}
 	xmlhttp.open("GET","num.txt",true);
