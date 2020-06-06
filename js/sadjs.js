@@ -22,7 +22,7 @@ function ajaxtest()
 			document.getElementById("numdiv").innerHTML = xmlhttp.responseText;
 		}
 	}
-	xmlhttp.open("GET","192.168.2.13/1.txt",true);
+	xmlhttp.open("GET","num.txt",true);
 	xmlhttp.send();
 	
 }
