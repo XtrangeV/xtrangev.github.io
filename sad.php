@@ -1,3 +1,3 @@
 <?php
-echo "sad";
+echo "php sad";
 ?>
